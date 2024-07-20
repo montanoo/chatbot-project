@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 function Layout({ children }) {
   return (
     <main
-      className={`min-h-screen relative flex h-full w-full overflow-hidden bg-[#171717] ${inter.className} text-gray-400`}
+      className={`min-h-screen relative flex h-full w-full overflow-auto bg-[#171717] ${inter.className} text-gray-400`}
     >
       <aside className="hidden md:block min-w-[200px] p-4 overflow-y-auto">
         <Sidebar />
