@@ -6,7 +6,7 @@ import Response from "@/components/response/response";
 
 export default function Home() {
   const genAI = new GoogleGenerativeAI(
-    process.env.API_KEY || "AIzaSyAJehGHTKrFKzpXoWRIgdQ6Ognm0B3k0Z8"
+    process.env.API_KEY
   );
   const inputRef = useRef(null);
   const [responses, setResponses] = useState([]);
